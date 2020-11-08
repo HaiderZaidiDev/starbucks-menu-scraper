@@ -2,7 +2,7 @@
 Scrapes items (food, drinks, sizes, prices) from Starbucks' menu, and runs monte carlo simulations to estimate yearly revenues.
 
 ## Background
-Wanted to play around with scraping; also for my business class we were tasked with using guesstimation to predict average revenue for a store in a year, rather than visting a store in person for data I used monte carlo simulations instead based on a few assumption.
+Wanted to play around with scraping; also for my business class we were tasked with using guesstimation to predict average revenue for a store in a year, rather than visting a store in person for data I used monte carlo simulations instead based on a few assumptions.
 
 ## Monte Carlo Controls:
 [Average number of customers at a Starbucks a day assumed to be between 600-700 people.](https://www.businessinsider.com/how-many-customers-starbucks-will-have-2013-10#:~:text=Trefis%20has%20released%20a%20report,2020%2C%20according%20to%20the%20report.)
