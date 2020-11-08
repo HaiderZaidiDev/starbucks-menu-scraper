@@ -2,12 +2,13 @@
 Scrapes items (food, drinks, sizes, prices) from Starbucks' menu, and runs monte carlo simulations to estimate yearly revenues.
 
 ## Background
-Wanted to play around with scraping; also for my business class we were tasked with using guestimation to predict average revenue for a store in a year, rather than visting a store in person for data I used monte carlo simulations instead based on some data I found online.
+Wanted to play around with scraping; also for my business class we were tasked with using guesstimation to predict average revenue for a store in a year, rather than visting a store in person for data I used monte carlo simulations instead based on a few assumption.
 
 ## Monte Carlo Controls:
 [Average number of customers at a Starbucks a day assumed to be between 600-700 people.](https://www.businessinsider.com/how-many-customers-starbucks-will-have-2013-10#:~:text=Trefis%20has%20released%20a%20report,2020%2C%20according%20to%20the%20report.)
 Average number of items a Starbucks customer purchases is between 1-3 items.
 
+## Accuracy
 For increased accuracy, it would be beneficial to add types (i.e whether an item is a food or drink) to predict realistic combinations of item purchases (e.g if a customer buys more than 2 items, create a 50% chance of the two items being two different types). Currently, items are randomly selected from a list, resulting in possible purchases where multiple items (e.g 3 drinks) could be purchased, which is less likely than per say someone purchasing a drink and a food item.
 
 ## Scraper Output
